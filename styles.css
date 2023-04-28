@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./mark.file/image/bridge.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-family: sans-serif;
+    /* position: fixed; */
+    left: 4pc;
+    
+}
+
+form{
+    background: black;
+    margin-left: 1rem;
+    min-width: 80px;
+    padding: 1rem;
+    display: flex;
+    gap: 3px;
+}
+
+    
+
+
+span{
+    color: darkgreen;
+}
+
+input{ 
+    
+    position: absolute;
+    left: 8pc;
+    bottom: 24pc;
+    width: 18pc;
+    height: 3pc;
+    
+}
+
+h4{
+    color: white;
+    position: absolute;
+    left: 210px;
+    bottom: 28pc;
+    font-size: 20px;
+}
+
+#name{
+    position: absolute;
+    bottom: 21pc;
+}
+
+#error{
+    position: absolute;
+    bottom: 18pc;
+}
+
+#error1{
+     position: absolute;
+    bottom: 15pc;
+}
+
+button{
+    color: white;
+    background-color: dodgerblue;
+    position: absolute;
+    left: 128px;
+    bottom: 13pc;
+    width: 10pc;
+    height: 30px;
+    border: 1px solid dodgerblue;
+}
+
+img{
+    position: absolute;
+    right: 21pc;
+    border: 36px;
+  border-radius: 6px;
+  padding: px;
+  width: 400px;
+  float: right;
+  /* display: grid; */
+  text-align: right;
+  
+
+
+}
+
+h3{
+    position: absolute;
+    right: 29pc;
+    bottom:20pc;
+    color: white;
+    text-align: right;
+    font-size: 2pc;
+    text-decoration: underline;
+    
+}
+
+.para{
+    position: absolute;
+    color: white;
+    right: 25pc;
+    bottom: 12pc;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* About Section */
+
+.menu{
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    background-color: #000;
+    padding-top: 2rem;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 27px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.menu ul li a:hover{
+    color: red;
+    text-decoration: dotted;
+    
+} 
+
+.menu h1{
+    color: white;
+    
+}
+
+.menu .text{
+    font-weight: 100;
+    padding: 1rem;
+    bottom: 0px;
+    line-height: 2pc;
+    color: white ;
+    font-size: 14px;
+}
+
+.menu .description{
+    padding: 1rem;
+    bottom: 60px;
+    color: white;
+    line-height: 2pc;
+    font-size: 14px;
+}
+
+
+/* contact section */
+
+
+.menu .error{
+    color: white;
+    line-height: 2pc;
+}
+
+.menu .successfull{
+    color: white;
+}
